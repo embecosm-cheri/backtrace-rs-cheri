@@ -7,7 +7,7 @@ edition = "2018"
 cc = "1.0"
 
 [dependencies]
-libc = { version = "0.2", default-features = false }
+libc = { "https://github.com/lewis-revill/libc-cheri.git", branch = "ljr-cheri-0.2.135", default-features = false }
 
 [dependencies.backtrace]
 path = "../.."
